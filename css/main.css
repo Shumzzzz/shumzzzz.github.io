@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@300;400;700&display=swap');
+
 html, body {
   background-color:#F4F5F8 !important; 
 }
 nav {
+  z-index:1;
   background-color: white;
-  -webkit-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.15);
-  -moz-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.15);
-  box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.2);
 }
 .navbar-brand {
 	transition: transform 2s;
@@ -15,4 +18,68 @@ nav {
 }
 .navbar-brand {
 	margin-left:25px;
+}
+.buy-menu {
+  margin-top: 50px;
+}
+.w-design {
+  width: 345px;
+  height: 455px;
+  background-color:white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
+}
+.w-design-txt {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 45px;
+  padding-top: 40px;
+  color:#383C43;
+}
+.w-design-desc {
+  margin-top: -10px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  font-size: 26px;
+  color:#555B66;
+}
+.w-design-cost {
+  padding-top: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 37px;
+  color:#555B66;
+}
+.btn-primary {
+  background-color: #2D5DE9 !important;
+  font-family: 'Roboto', sans-serif;
+  font-size:28px !important;
+  font-weight: 700 !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  border-radius: 10px !important;
+}
+.btn-primary:hover {
+  background-color: #2349B8 !important;
+}
+.design-code {
+  width: 345px;
+  height: 600px;
+  background-color:white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
+}
+.code {
+  width: 345px;
+  height: 455px;
+  background-color:white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
 }
