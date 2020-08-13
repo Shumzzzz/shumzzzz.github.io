@@ -1,0 +1,18 @@
+html, body {
+  background-color:#F4F5F8; 
+}
+nav {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.15);
+}
+.navbar-brand {
+	transition: transform 2s;
+}
+.navbar-brand:hover {
+	 transform: rotate(720deg);
+}
+.navbar-brand {
+	margin-left:25px;
+}
