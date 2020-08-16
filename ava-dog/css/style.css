@@ -48,6 +48,7 @@ ul li {
 	color:white !important;
 	display: block;
 	margin:0 auto;
+	margin-top:-7.5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	width: 175px;
