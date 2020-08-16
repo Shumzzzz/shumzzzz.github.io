@@ -40,12 +40,29 @@ ul li {
 .form-group {
 	margin-top: 5%;
 }
-.rect .reg-btn {
+.rect .login-btn {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 16px;
+	background-color: #FF9164 !important;;
+	color:white !important;
+	display: block;
+	margin:0 auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 175px;
+	border-radius: 8px;
+	text-decoration: none;
+}
+.rect .login-btn:hover {
+	background-color: #F68B60 !important;;
+}
+.rect .reg-btn {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
 	color:#FF9164 !important;
-} 
+}
 #AuthInput {
 	text-align: center;
 	width: 75%;
