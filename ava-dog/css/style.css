@@ -61,12 +61,6 @@ ul li {
 .rect .login-btn:hover {
 	background-color: #F68B60 !important;;
 }
-.rect .reg-btn {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 14px;
-	color:#FF9164 !important;
-}
 #AuthInput {
 	text-align: center;
 	width: 75%;
