@@ -18,8 +18,8 @@ ul li {
 .navbar-brand {
 	margin-left: 15px;
 }
-.row-1{
-	margin-top: 50px;
+.col-xl-6 {
+	margin:auto;
 }
 .text1 {
 	font-family: 'Montserrat', sans-serif;
