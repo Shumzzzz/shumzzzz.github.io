@@ -18,8 +18,15 @@ nav {
 }
 
 .navbar-brand {
-	transition: transform 2s;
+  transition: transform 2s;
+  animation: poyavlenie 2s ease-in-out;
 }
+
+@keyframes poyavlenie {
+  from{}
+  to{transform: rotate(720deg);}
+}
+
 .navbar-brand:hover {
 	 transform: rotate(720deg);
 }
