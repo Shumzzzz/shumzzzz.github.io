@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@300;400;700&display=swap');
+
+html, body {
+  background-color:#F4F5F8 !important; 
+}
+nav {
+  z-index:1;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.2);
+  animation: slide-down 1s ease-in-out;
+  }
+
+@keyframes slide-down {
+  0% {transform:translateY(-100%);opacity:0;z-index:0;}
+  100% {transform:translateY(0%);opacity:1;z-index:1;}
+}
+
+.navbar-brand {
+  transition: transform 2s;
+  animation: poyavlenie 2s ease-in-out;
+}
+
+@keyframes poyavlenie {
+  from{}
+  to{transform: rotate(720deg);}
+}
+
+.navbar-brand:hover {
+	 transform: rotate(720deg);
+}
+.navbar-brand {
+	margin-left:25px;
+}
+
+.rect-time{
+  margin-top:50px;
+  width:50%;
+  height:100px;
+  background-color: white;
+  z-index:1;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.2);
+  animation: time 2s ease-in-out;
+}
+
+@keyframes time {
+  from{opacity:0;z-index:0;}
+  to{opacity:1;z-index:1;}
+}
+
+#userGeo {
+  font-size:22px
+}
+
+.buy-menu {
+  margin-top: 50px;
+}
+.col-lg-12 div {
+  margin:0 auto;
+  margin-top: 50px;
+  animation: slide-top 1s ease-in-out;
+}
+
+@keyframes slide-top {
+  0% {transform:translateY(50%);opacity:0;z-index:0;}
+  100% {transform:translateY(0%);opacity:1;z-index:1;}
+}
+
+@media (max-width: 767px) {.rect-time {width:90%;}}
