@@ -117,4 +117,4 @@ ul li a:hover {
     color:white;
 }
 @media (max-width:991px) {.h-1{font-size:12.5vw} .block-2{height:1000px;} .subtext{font-size:3.5vw}}
-@media (max-width:575px) {.block-2{height:1350px;}}
+@media (max-width:575px) {.block-2{height:1500px;}}
