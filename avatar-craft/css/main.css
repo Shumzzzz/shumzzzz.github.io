@@ -6,7 +6,7 @@ body {
 	-webkit-background: url(../img/bg.jp2) no-repeat;
 	-o-background: url(../img/bg.webp) no-repeat;
 	background: url(../img/bg.webp) no-repeat;
-    background-size: cover; /* Современные браузеры */
+    background-size:100%; /* Современные браузеры */
     background-attachment:fixed;
 }
 nav {
