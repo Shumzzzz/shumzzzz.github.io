@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("../fonts/MyriadPro-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "GothamPro";
+    src: url("../fonts/GothamProBold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 800; 
+}
+@font-face {
+    font-family: "GothamPro";
+    src: url("../fonts/GothamProMedium.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 600; 
+}
+.header {
+    background: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+.navbar {
+    border-bottom:2px solid rgba(255,255,255,0.25)
+}
+.navbar-brand {
+    margin-left:35px;
+}
+.navbar-nav {
+    margin-left: 70px;
+}
+.layer-1 .nav-link {
+    margin-right:20px;
+}
+.layer-2 .nav-link {
+    margin-right:15px;
+}
+ul li a {
+    color:rgba(255,255,255,0.95) !important;
+    font-family: "Myriad Pro", sans-serif !important;
+    font-size:16px;
+}
+ul li a:hover {
+    color:rgba(255,255,255,0.75) !important;
+}
+h1 {
+    color: white;
+    font-size:95px;
+    font-family:"GothamPro", sans-serif;
+    font-weight: 800;
+    margin-top:175px;
+}
+.subtext {
+    color:#11749E;
+    font-family:"GothamPro", sans-serif;
+    font-weight: 600;
+    letter-spacing:12px;
+}
+@media (max-width:991px) {h1{font-size:12.5vw}}
+@media (max-width:991px) {.subtext{font-size:2.5vw}}
