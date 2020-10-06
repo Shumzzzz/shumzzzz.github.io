@@ -70,7 +70,7 @@ ul li a:hover {
     background-color:#11749E;
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
+    height:110vh;
 }
 .section-header {
   display: flex;
@@ -101,7 +101,7 @@ ul li a:hover {
   border-radius: 50%;
   display: inline-block;
 }
-.row {
+.row-1 {
     margin-top:125px;
 }
 .h-3 {
@@ -116,6 +116,69 @@ ul li a:hover {
     font-family:'Gotham', sans-serif;
     font-weight: 400;
     color:white;
+}
+.smblock-1, .smblock-2, .smblock-3, .smblock-4 {
+    height:50vh;
+}
+.smblock-1 {
+    background-color: #222222;
+}
+.smblock-2 {
+    background: url(../img/miniblock1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.smblock-3 {
+    background: url(../img/miniblock2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.smblock-4 {
+    background-color: #F3F3F3;
+}
+.date-1 {
+    color:#F5F5F5;
+    font-family:'Gotham', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top:50px;
+    margin-left:25px;
+}
+.date-2 {
+    color:#222222;
+    font-family:'Gotham', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top:25px;
+    margin-left:25px;
+}
+.h-4 {
+    color:white;
+    font-family:'Gotham', sans-serif;
+    margin-top:-10px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left:25px;
+}
+.h-5 {
+    color:#222222;
+    font-family:'Gotham', sans-serif;
+    margin-top:-10px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left:25px;
+}
+.subh-4 {
+    margin-left:25px;
+    color:white;
+    font-size: 14px;
+}
+.subh-5 {
+    margin-left:25px;
+    columns: #222222;;
+    font-size: 14px;
 }
 @media (max-width:991px) {.h-1{font-size:12.5vw} .block-2{height:1000px;} .subtext{font-size:3vw}}
 @media (max-width:575px) {.block-2{height:1500px;}}
