@@ -16,6 +16,13 @@
     font-style: normal; 
     font-weight: 600; 
 }
+@font-face {
+    font-family: "GothamPro";
+    src: url("../fonts/GothamProRegular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 400; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 .header {
     background: url(../img/bg1.png);
     background-repeat: no-repeat;
@@ -45,7 +52,7 @@ ul li a {
 ul li a:hover {
     color:rgba(255,255,255,0.75) !important;
 }
-h1 {
+.h-1 {
     color: white;
     font-size:95px;
     font-family:"GothamPro", sans-serif;
@@ -58,5 +65,56 @@ h1 {
     font-weight: 600;
     letter-spacing:12px;
 }
-@media (max-width:991px) {h1{font-size:12.5vw}}
-@media (max-width:991px) {.subtext{font-size:2.5vw}}
+.block-2 {
+    background-color:#11749E;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.w-text {
+  color:white;
+  font-size: 50px;
+  z-index: 1;
+  margin-top:150px;
+  text-align: center;
+}
+.w-bg {
+  position: absolute;
+  z-index: 0;
+  font-size: 175px;
+  margin-top:160px;
+  transform: scale(1, 1.25);
+  font-family:'Roboto', sans-serif;
+  font-weight: 700;
+  color:rgba(255,255,255,0.25);
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: #2E85AA;
+  border-radius: 50%;
+  display: inline-block;
+}
+.row {
+    margin-top:125px;
+}
+.h-3 {
+    margin-top:15px;
+    font-family:'Gotham', sans-serif;
+    font-weight: 600;
+    color:white;
+    letter-spacing:1px;
+}
+.subh-3 {
+    font-size:16px;
+    font-family:'Gotham', sans-serif;
+    font-weight: 400;
+    color:white;
+}
+@media (max-width:991px) {.h-1{font-size:12.5vw} .block-2{height:1000px;} .subtext{font-size:3.5vw}}
+@media (max-width:575px) {.block-2{height:1350px;}}
