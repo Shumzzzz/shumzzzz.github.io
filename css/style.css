@@ -30,13 +30,13 @@ h1 {
     height:30px;
     overflow: hidden;
     display:inline-block;
+    background-color: red;
 }
 .vk .vklink{
     color:white;
     font-family: 'Roboto', sans-serif;
     font-size:18px;
     display:inline-block;
-    width:0;
     transition: all 0.3s;
 }
 .vk:hover .vklink {
@@ -45,4 +45,13 @@ h1 {
 .vk .vkimg {
     display:inline-block;
     transition: all 0.2s;
+}
+.vk:hover .vklink {
+    animation: typing 2s;
+}
+
+    
+@keyframes typing {
+    from {width: 0;}
+    to {width: 100%;}
 }
