@@ -26,29 +26,31 @@ h1 {
     font-size:4vw;
     margin-top:200px;
 }
-.vk {
+ .vk {
     height:30px;
     overflow: hidden;
     display:inline-block;
+    width:auto;
 }
 .vk .vklink{
     color:white;
     font-family: 'Roboto', sans-serif;
     font-size:18px;
-    display:inline-block;
+    display:block;
     transition: all 0.3s;
-    width:0;
+    transform: translateY(-30px);
 }
 .vk .vkimg {
     display:inline-block;
     transition: all 0.2s;
+    transform: translateY(-26px);
 }
-.vk:hover .vklink {
-    width:0;
-    animation: typing 2s ease-in-out 0s 1 normal forwards;
-}   
-@keyframes typing {
-    0% {width: 0;}
-    100% {width: 100%;}
+.vk:hover .vkimg {
+    transition: all 0.4s;
+    transform: translateY(4px);
+}
+.vk:hover .vklink{
+    transition: all 0.4;
+    transform: translateY(0px);
 }
 
