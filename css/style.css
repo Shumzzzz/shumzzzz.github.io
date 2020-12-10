@@ -30,7 +30,6 @@ h1 {
     height:30px;
     overflow: hidden;
     display:inline-block;
-    background-color: red;
 }
 .vk .vklink{
     color:white;
@@ -38,20 +37,18 @@ h1 {
     font-size:18px;
     display:inline-block;
     transition: all 0.3s;
-}
-.vk:hover .vklink {
-    width:auto
+    width:0;
 }
 .vk .vkimg {
     display:inline-block;
     transition: all 0.2s;
 }
 .vk:hover .vklink {
-    animation: typing 2s;
+    width:0;
+    animation: typing 2s ease-in-out 0s 1 normal forwards;
+}   
+@keyframes typing {
+    0% {width: 0;}
+    100% {width: 100%;}
 }
 
-    
-@keyframes typing {
-    from {width: 0;}
-    to {width: 100%;}
-}
