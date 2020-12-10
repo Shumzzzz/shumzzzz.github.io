@@ -39,6 +39,7 @@ h1 {
     display:block;
     transition: all 0.3s;
     transform: translateY(-30px);
+    text-decoration: underline;
 }
 .vk .vkimg {
     display:inline-block;
