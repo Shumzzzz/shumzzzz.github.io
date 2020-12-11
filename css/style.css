@@ -44,21 +44,21 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size:18px;
     display:block;
-    transition: all 0.3s;
+    transition: all 0.4s;
     text-decoration: underline;
     transform: translateY(-30px);
 }
 .vk .vkimg {
     display:inline-block;
-    transition: all 0.2s;
+    transition: all 0.4s;
     transform: translateY(-26px);
 }
 .vk:hover .vkimg {
-    transition: all 0.4s;
+    transition: all 0.5s;
     transform: translateY(20px);
 }
 .vk:hover .vklink{
-    transition: all 0.4;
+    transition: all 0.5s;
     transform: translateY(1px);
 }
 @media (max-width:991px) {h1{font-size:5vw}}
