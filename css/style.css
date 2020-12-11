@@ -26,6 +26,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size:4vw;
     margin-top:200px;
+    mix-blend-mode: exclusion; /*exclusion*/
 }
  .vk {
     height:6vh;
