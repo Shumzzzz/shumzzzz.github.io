@@ -34,10 +34,11 @@ h1 {
     mix-blend-mode: exclusion; /*exclusion*/
 }
  .vk {
-    height:6vh;
+    height:30px;
     overflow: hidden;
     display:inline-block;
     width:auto;
+    background-color: red;
 }
 .vk .vklink{
     color:white;
@@ -59,6 +60,6 @@ h1 {
 }
 .vk:hover .vklink{
     transition: all 0.4;
-    transform: translateY(5px);
+    transform: translateY(1px);
 }
 @media (max-width:991px) {h1{font-size:5vw}}
