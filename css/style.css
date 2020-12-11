@@ -5,10 +5,15 @@ nav {
     border-bottom:2px solid rgba(255, 255, 255, 0.664)
 }
 .navbar-brand {
-    transition: transform 2s;
+    animation: rotate 2.5s ease infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(-360deg);
+    }   
 }
 .navbar-brand:hover {
-       transform: rotate(720deg);
+    transform: rotate(0deg);
 }
 .hr {
     height:1px;
@@ -40,8 +45,8 @@ h1 {
     font-size:18px;
     display:block;
     transition: all 0.3s;
-    transform: translateY(-30px);
     text-decoration: underline;
+    transform: translateY(-30px);
 }
 .vk .vkimg {
     display:inline-block;
