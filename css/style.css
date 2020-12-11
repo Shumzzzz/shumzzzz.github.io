@@ -2,8 +2,7 @@
 
 nav {
     margin-top:-1px;
-    background-color:#05050F;
-    border-bottom:2px solid rgba(255,255,255,0.3)
+    border-bottom:2px solid rgba(255, 255, 255, 0.664)
 }
 .navbar-brand {
     transition: transform 2s;
@@ -17,8 +16,10 @@ nav {
     background-color:rgba(255,255,255,0.3)
 }
 .container-1 {
+    background: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height:100vh;
-    background-color: #05050F;
 }
 h1 {
     color:white;
@@ -27,7 +28,7 @@ h1 {
     margin-top:200px;
 }
  .vk {
-    height:30px;
+    height:6vh;
     overflow: hidden;
     display:inline-block;
     width:auto;
@@ -48,10 +49,10 @@ h1 {
 }
 .vk:hover .vkimg {
     transition: all 0.4s;
-    transform: translateY(4px);
+    transform: translateY(20px);
 }
 .vk:hover .vklink{
     transition: all 0.4;
-    transform: translateY(0px);
+    transform: translateY(5px);
 }
-
+@media (max-width:991px) {h1{font-size:5vw}}
