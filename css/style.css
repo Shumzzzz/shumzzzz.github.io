@@ -5,12 +5,13 @@ nav {
     border-bottom:2px solid rgba(255, 255, 255, 0.664)
 }
 .navbar-brand {
-    animation: rotate 2.5s ease infinite;
+    animation: rotate 2.5s ease;
 }
 @keyframes rotate {
     from {
-        transform: rotate(-360deg);
+        transform: rotate(-360deg); 
     }   
+    to {transform: rotate(0deg);}
 }
 .navbar-brand:hover {
     transform: rotate(0deg);
