@@ -14,7 +14,7 @@ nav {
     to {transform: rotate(0deg);}
 }
 .navbar-brand:hover {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
 }
 .hr {
     height:1px;
