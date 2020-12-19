@@ -26,6 +26,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     height:100.1vh;
+    background-attachment: fixed;
 }
 h1 {
     color:white;
