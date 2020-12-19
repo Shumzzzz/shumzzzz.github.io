@@ -5,16 +5,16 @@ nav {
     border-bottom:2px solid rgba(255, 255, 255, 0.664)
 }
 .navbar-brand {
-    animation: rotate 2.5s ease-in-out;
+    transition: 1s ease-in-out;
+    animation: rotate 1s ease-in-out;
+    
 }
 @keyframes rotate {
-    from {
-        transform: rotate(-360deg); 
-    }   
+    from {transform: rotate(-360deg);}   
     to {transform: rotate(0deg);}
 }
 .navbar-brand:hover {
-    transform: rotate(720deg);
+    transform: rotate(375deg);
 }
 .hr {
     height:1px;
@@ -22,7 +22,7 @@ nav {
     background-color:rgba(255,255,255,0.3)
 }
 .container-1 {
-    background: url(../img/bg1.webp);
+    background: url(../img/bg2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height:100.1vh;
@@ -48,6 +48,9 @@ h1 {
     transition: all 0.4s;
     text-decoration: underline;
     transform: translateY(-30px);
+}
+.vklink:hover {
+    text-decoration:underline;
 }
 .vk .vkimg {
     display:inline-block;
